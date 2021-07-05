@@ -1,0 +1,68 @@
+// Mobile navigation bar button
+
+.nav-button {
+  font-size: 3.5rem;
+}
+
+// See the project button
+
+.btn-project {
+  font-size: $font-sm;
+  margin: $space-6 0 $space-2 $space-2;
+  background-color: $color-red;
+  border-radius: 0rem;
+
+  i {
+    font-size: $font-sm;
+  }
+
+  @media (min-width: 992px) {
+    position: relative;
+    font-size: $font-md;
+    padding: $font-xs $space-6 $font-xs $font-xs;
+    margin: 0 0 $space-6;
+
+    i {
+      font-size: $font-md;
+    }
+  }
+}
+
+// Carousel next/prev buttons
+
+@media (min-width: 992px) {
+  .carousel-btn {
+    font-size: $font-md;
+    padding: 5rem 5.4rem;
+  
+    .fa-arrow-left {
+      padding-right: $font-md;
+    }
+
+    .fa-arrow-right {
+      padding-left: $font-md;
+    }
+  }
+}
+
+.counter {
+  font-size: $font-md;
+}
+
+// Close modal with project info
+
+.modal-close {
+  position: absolute;
+  top: 2.4rem;
+  right: 1.6rem;
+}
+
+
+// About me button
+
+.collab-btn {
+    font-size: $font-sm;
+    margin-top: 2.5rem;
+    background-color: $color-red;
+}
+

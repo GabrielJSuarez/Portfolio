@@ -1,0 +1,22 @@
+@import 'abstracts/variables';
+
+@import './layout/navigation';
+@import './layout/offcanvas';
+@import './layout/forms';
+@import './layout/footer';
+
+@import 'pages/index';
+
+@import './components/buttons';
+@import './components/modals';
+
+
+// Globals
+
+html {
+    font-size: 62.5%; //REM Reset
+}
+
+.red-color {
+    color: $color-red;
+}

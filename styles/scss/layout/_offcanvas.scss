@@ -1,0 +1,38 @@
+// Offcanvas Menu
+
+// Body
+
+.offcanvas-start {
+  width: 35rem;
+}
+
+.offcanvas-body {
+  margin-top: 2rem;
+}
+
+// List
+
+.offcanvas-list {
+  width: 10rem;
+}
+
+.offcanvas-number {
+  font-size: $font-xs;
+  color: $color-secondary;
+  position: relative;
+  right: 2rem;
+  top: 0.5rem;
+}
+
+// Circle
+
+.offcanvas-circle {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 8.2rem;
+  top: 48.1rem;
+  background: $color-red;
+  mix-blend-mode: lighten;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}

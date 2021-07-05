@@ -1,0 +1,55 @@
+// Modals mobile
+
+.modal-header {
+  @media (min-width: 992px) {
+    padding-left: 5.4rem !important;
+  }
+}
+
+.modal-title {
+  margin-top: 7rem;
+}
+
+.modal-dialog {
+  margin: 0rem;
+
+  @media (min-width: 992px) {
+    margin: 2rem 7rem;
+  }
+}
+
+.modal-content {
+  padding: 0 1.6rem;
+
+  @media (min-width: 992px) {
+    width: 130rem;
+    height: 80rem;
+  }
+}
+
+.modal-body {
+  @media (min-width: 992px) {
+    padding: 1rem 6rem;
+  }
+}
+
+.project-description {
+  font-size: $font-md;
+  padding: 0 $space-2;
+}
+
+.modal-footer {
+  a {
+    color: $color-red;
+    font-size: $font-md;
+
+    &:hover {
+        color: $color-red;
+        text-decoration: underline;
+    }
+
+    i {
+        color: $color-red;
+    }
+  }
+}

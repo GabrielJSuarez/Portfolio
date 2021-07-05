@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+
+// Forms
+
+.form-label {
+    color: #7d7c84;
+    position: relative;
+    font-size: $font-xs;
+    top: 2.8rem;
+    left: 1.5rem;
+  }
+  
+  .form-control {
+    background-color: #101010;
+    border-color: #101010;
+    padding-top: 2.5rem;
+  
+    &:focus {
+      color: #ffffff;
+      border-color: $color-red;
+      background-color: #101010;
+      box-shadow: none;
+    }
+  
+    &::placeholder {
+      color: #7d7c84;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  .form-control-lg, .form-control {
+    font-size: $font-sm;
+    padding-left: 1rem;
+    border-radius: 0.8rem;
+  }

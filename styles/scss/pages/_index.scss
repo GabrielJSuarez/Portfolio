@@ -1,0 +1,350 @@
+@import "../abstracts/variables";
+
+@import "../abstracts/mixins";
+
+// Background color
+
+.background-primary {
+  background-color: $background-primary;
+}
+
+// Custom container
+
+.about-container {
+  padding: 0 2rem;
+
+  @media (min-width: 992px) {
+    padding-top: 15rem;
+    margin: 0 14.1rem 15rem 16.9rem;
+  }
+}
+
+// Hero
+
+.hero-container {
+  @media (min-width: 992px) {
+    width: 50rem;
+    margin-top: 15rem;
+    margin-left: 55rem;
+  }
+}
+
+.hero {
+  .number {
+    font-weight: 200;
+    font-size: 5rem;
+    color: #ffffff;
+    opacity: 0.2;
+
+    @media (min-width: 992px) {
+      font-size: 10rem;
+      position: relative;
+      top: 5.5rem;
+      right: 10rem;
+    }
+  }
+
+  .number-about {
+    position: static;
+  }
+
+  .hero-introduccion {
+    font-size: $font-xs;
+
+    @media (min-width: 992px) {
+      font-size: $font-sm;
+    }
+  }
+
+  h3 {
+    font-size: 5rem;
+    line-height: 100%;
+
+    @media (min-width: 992px) {
+      font-size: 11rem;
+    }
+  }
+
+  p {
+    font-size: $font-xs;
+    line-height: 1.8rem;
+    padding-top: 3rem;
+
+    @media (min-width: 992px) {
+      font-size: $font-md;
+      padding-bottom: $space-4;
+      margin-top: $space-4 !important;
+    }
+  }
+}
+
+.hero-circle {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 7rem;
+  right: 3rem;
+  background: #db4747;
+  mix-blend-mode: lighten;
+
+  @media (min-width: 992px) {
+    width: 94px;
+    height: 94px;
+    right: 33rem;
+    top: 30rem;
+  }
+}
+
+.portfolio-container {
+  margin-bottom: $space-2;
+
+  @media (min-width: 992px) {
+    padding-left: 28.6rem !important;
+    margin-bottom: $space-6;
+  }
+}
+
+.portfolio-number {
+  @extend .number;
+  right: 12rem !important;
+}
+
+// Recent Work
+
+.section {
+  margin-top: 8rem;
+
+  @media (min-width: 992px) {
+    margin-top: 0rem;
+  }
+}
+
+.project-container {
+  height: 35rem;
+
+  @media (min-width: 992px) {
+    height: 77rem;
+    border-top: $border;
+    border-bottom: $border;
+
+    .row {
+      .col-lg-8 {
+        margin-top: 0rem;
+      }
+    }
+  }
+}
+
+.project-height {
+  height: 35rem;
+
+  @media (min-width: 992px) {
+    height: 77rem;
+  }
+}
+
+.project-prev {
+  margin-top: 0rem;
+  padding: 0 $space-2;
+
+  @media (min-width: 992px) {
+    margin-top: $space-2;
+    padding: 0 $space-6;
+  }
+
+  h3 {
+    font-size: $font-lg;
+    padding: $space-2;
+
+    @media (min-width: 992px) {
+      position: relative;
+      font-size: 6rem;
+    }
+  }
+}
+
+.project-image-left {
+  opacity: 0.8;
+
+  img {
+    border-bottom: $border;
+    border-right: $border;
+  }
+}
+
+.project-image-right {
+  opacity: 0.8;
+
+  img {
+    border-bottom: $border;
+    border-left: $border;
+  }
+}
+
+.project-bg {
+  background-position: center center;
+  background-size: cover;
+}
+
+.project-bg-1 {
+  background: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0) 48.44%,
+      #000000 100%
+    ), 
+    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/3.png?raw=true');
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-size: cover;
+  background-position: 50% 25%;
+
+  @media (min-width: 992px) {
+    background: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0) 48.44%,
+      #000000 100%
+    ), 
+    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/4.png?raw=true');
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-position: top center;
+    background-size: 96rem;
+    background-repeat: no-repeat;
+  }
+}
+
+.project-bg-2 {
+  @extend .project-bg;
+  background: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0) 48.44%,
+      #000000 100%
+    ),
+    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/index-screenshot.png?raw=true');
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-bg-3 {
+  @extend .project-bg;
+  background: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0) 48.44%,
+      #000000 100%
+    ),
+    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/screenshot_1.png?raw=true');
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.project-tech {
+  p {
+    font-size: $font-xs;
+    padding: $space-1 0.6rem;
+    background: rgba(0, 0, 0, 0.5);
+
+    @media (min-width: 992px) {
+      position: relative;
+      font-size: $font-lg;
+      margin-left: $space-1;
+      margin-right: $space-2;
+      padding: $space-2 $font-xs;
+    }
+  }
+}
+
+// About us
+
+.about-me {
+  font-size: $font-xs;
+
+  @media (min-width: 992px) {
+    font-size: $font-md;
+    margin-top: $space-4;
+  }
+}
+
+// Skill cards
+
+.skill-card {
+  margin-top: 5rem;
+
+  .card {
+    margin: 0 5rem;
+    background-color: $background-secondary;
+
+    @media (min-width: 992px) {
+      margin: 0;
+    }
+
+    .card-body {
+      h5 {
+        font-size: $font-sm;
+        padding: 2.4rem 1.8rem 1.8rem;
+
+        @media (min-width: 992px) {
+          font-size: $font-md;
+        }
+      }
+
+      ul {
+        color: #7d7c84;
+        font-size: 1.4rem;
+        padding-left: 2.4rem;
+      }
+    }
+  }
+}
+
+.lenguage-icon {
+  width: 40px;
+  height: 40px;
+  background: #000;
+
+  .fa-terminal {
+    @include icon-color(#22b07d, $font-sm);
+  }
+
+  .fa-bootstrap {
+    @include icon-color(#376aed, $font-sm);
+  }
+
+  .fa-lightbulb {
+    @include icon-color(#f19d2a, $font-sm);
+  }
+
+  .fa-heart {
+    @include icon-color($color-red, $font-sm);
+  }
+}
+
+// Get Started
+
+.section.get-started {
+  padding-bottom: 13rem;
+}
+
+.get-started {
+  background-color: $background-secondary;
+}
+
+.get-started-container {
+  @media (min-width: 992px) {
+    width: 100rem;
+    padding-left: 35.9rem;
+  }
+}
+
+.get-started-circle {
+  @media (min-width: 992px) {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    right: 33rem;
+    top: 440rem;
+
+    background: #DB4747;
+    mix-blend-mode: lighten;
+  }
+}

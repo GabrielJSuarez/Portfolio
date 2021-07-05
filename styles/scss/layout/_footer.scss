@@ -1,0 +1,25 @@
+@import '../abstracts/variables';
+
+// footer
+
+.border-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    a {
+        font-size: $font-sm !important;
+        padding-top: $space-2;
+    }
+
+    @media (min-width: 992px) {
+        border-top: none;
+        margin: 0 15.5rem 4rem 14.5rem; 
+    }
+}
+
+.footer-info {
+    @media (min-width: 992px) {
+        a, ul {
+            font-size: $font-md !important;
+        }
+    }
+}
