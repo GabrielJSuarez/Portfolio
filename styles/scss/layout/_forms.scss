@@ -11,14 +11,13 @@
   }
   
   .form-control {
-    background-color: $background-terciary;
     border-color: #101010;
     padding-top: 2.5rem;
   
     &:focus {
       color: #ffffff;
       border-color: $color-red;
-      background-color: $background-terciary;
+
       box-shadow: none;
     }
   
