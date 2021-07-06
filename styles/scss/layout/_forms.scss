@@ -3,7 +3,7 @@
 // Forms
 
 .form-label {
-    color: $color-primary;
+    color: $color-red;
     position: relative;
     font-size: $font-xs;
     top: 2.8rem;
@@ -15,14 +15,14 @@
     padding-top: 2.5rem;
   
     &:focus {
-      color: #ffffff;
+      color: #000000;
       border-color: $color-red;
 
       box-shadow: none;
     }
   
     &::placeholder {
-      color: #7d7c84;
+      color: #000000;
       padding-bottom: 2rem;
     }
   }

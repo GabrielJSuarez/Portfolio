@@ -94,7 +94,7 @@
 }
 
 .form-label {
-  color: #FFFFFF;
+  color: #DA0037;
   position: relative;
   font-size: 1.2rem;
   top: 2.8rem;
@@ -107,29 +107,29 @@
 }
 
 .form-control:focus {
-  color: #ffffff;
+  color: #000000;
   border-color: #DA0037;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #7d7c84;
+  color: #000000;
   padding-bottom: 2rem;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #7d7c84;
+  color: #000000;
   padding-bottom: 2rem;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #7d7c84;
+  color: #000000;
   padding-bottom: 2rem;
 }
 
 .form-control::placeholder {
-  color: #7d7c84;
+  color: #000000;
   padding-bottom: 2rem;
 }
 
