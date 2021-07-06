@@ -4,6 +4,14 @@
 
 // Background color
 
+.text-color-primary {
+  color: $color-primary;
+}
+
+.text-color-red {
+  color: $color-red;
+}
+
 .background-primary {
   background-color: $background-primary;
 }
@@ -33,8 +41,7 @@
   .number {
     font-weight: 200;
     font-size: 5rem;
-    color: #ffffff;
-    opacity: 0.2;
+    color: $color-red;
 
     @media (min-width: 992px) {
       font-size: 10rem;
@@ -84,7 +91,7 @@
   height: 5rem;
   top: 7rem;
   right: 3rem;
-  background: #db4747;
+  background: $color-red;
   mix-blend-mode: lighten;
 
   @media (min-width: 992px) {
@@ -181,6 +188,10 @@
   }
 }
 
+.transaction-col {
+  width: 30% !important;
+}
+
 .project-bg {
   background-position: center center;
   background-size: cover;
@@ -193,7 +204,7 @@
       rgba(0, 0, 0, 0) 48.44%,
       #000000 100%
     ), 
-    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/3.png?raw=true');
+    url('https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true');
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-size: cover;
   background-position: 50% 25%;
@@ -205,11 +216,12 @@
       rgba(0, 0, 0, 0) 48.44%,
       #000000 100%
     ), 
-    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/4.png?raw=true');
+    url('https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true');
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background-position: top center;
-    background-size: 96rem;
+    background-position: center center;
+    /*background-size: 96rem;*/
     background-repeat: no-repeat;
+    width: 70%;
   }
 }
 
@@ -221,7 +233,7 @@
       rgba(0, 0, 0, 0) 48.44%,
       #000000 100%
     ),
-    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/index-screenshot.png?raw=true');
+    url('https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/index-screenshot.png?raw=true');
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -233,7 +245,7 @@
       rgba(0, 0, 0, 0) 48.44%,
       #000000 100%
     ),
-    url('https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/screenshot_1.png?raw=true');
+    url('https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/screenshot_1.png?raw=true');
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -272,7 +284,7 @@
 
   .card {
     margin: 0 5rem;
-    background-color: $background-secondary;
+    background-color: $background-terciary;
 
     @media (min-width: 992px) {
       margin: 0;
@@ -289,7 +301,7 @@
       }
 
       ul {
-        color: #7d7c84;
+        color: $color-primary;
         font-size: 1.4rem;
         padding-left: 2.4rem;
       }
@@ -344,7 +356,7 @@
     right: 33rem;
     top: 440rem;
 
-    background: #DB4747;
+    background: $color-red;
     mix-blend-mode: lighten;
   }
 }

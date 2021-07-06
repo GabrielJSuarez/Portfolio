@@ -2,8 +2,9 @@
 
 // Background
 
-$background-primary: #1B1B1E;
-$background-secondary: #212123;
+$background-primary: #171717;
+$background-secondary: #171717;
+$background-terciary: #444444;
 
 // Font sizes
 
@@ -13,9 +14,10 @@ $font-md: 1.8rem;
 $font-lg: 2rem;
 // Colors
 
-$color-secondary: #49494B;
+$color-primary: #EDEDED;
+$color-secondary: #7d7c84;
 
-$color-red: #DB4747;
+$color-red: #DA0037;
 
 // Custom spacing utilites
 
@@ -27,4 +29,4 @@ $space-1: 1rem;
 
 // Borders
 
-$border: 1px solid $color-secondary !important;
+$border: 1px solid $color-red !important;

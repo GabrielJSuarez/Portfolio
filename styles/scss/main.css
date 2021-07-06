@@ -5,7 +5,7 @@
 }
 
 .desktop-nav i {
-  color: #ffffff;
+  color: #EDEDED;
   width: 6px;
   height: 6px;
   position: relative;
@@ -32,13 +32,13 @@
 }
 
 .external-nav li a i {
-  color: #ffffff;
+  color: #EDEDED;
   font-size: 2.5rem;
 }
 
 .navigation h2 {
   font-size: 1.8rem;
-  color: #DB4747;
+  color: #DA0037;
   padding-top: 5rem;
 }
 
@@ -52,11 +52,11 @@
   margin: 2rem 0rem;
   width: 7rem;
   height: 0rem;
-  border: 1px solid #ffffff;
+  border: 1px solid #EDEDED;
 }
 
 .resume {
-  color: #DB4747;
+  color: #DA0037;
   font-size: 1.8rem;
   margin-top: 7rem;
 }
@@ -75,7 +75,7 @@
 
 .offcanvas-number {
   font-size: 1.2rem;
-  color: #49494B;
+  color: #EDEDED;
   position: relative;
   right: 2rem;
   top: 0.5rem;
@@ -87,7 +87,7 @@
   height: 2.4rem;
   left: 8.2rem;
   top: 48.1rem;
-  background: #DB4747;
+  background: #DA0037;
   mix-blend-mode: lighten;
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
           transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -109,7 +109,7 @@
 
 .form-control:focus {
   color: #ffffff;
-  border-color: #DB4747;
+  border-color: #DA0037;
   background-color: #101010;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -163,8 +163,16 @@
   }
 }
 
+.text-color-primary {
+  color: #EDEDED;
+}
+
+.text-color-red {
+  color: #DA0037;
+}
+
 .background-primary {
-  background-color: #1B1B1E;
+  background-color: #171717;
 }
 
 .about-container {
@@ -189,8 +197,7 @@
 .hero .number, .hero .portfolio-number {
   font-weight: 200;
   font-size: 5rem;
-  color: #ffffff;
-  opacity: 0.2;
+  color: #DA0037;
 }
 
 @media (min-width: 992px) {
@@ -247,7 +254,7 @@
   height: 5rem;
   top: 7rem;
   right: 3rem;
-  background: #db4747;
+  background: #DA0037;
   mix-blend-mode: lighten;
 }
 
@@ -292,8 +299,8 @@
 @media (min-width: 992px) {
   .project-container {
     height: 77rem;
-    border-top: 1px solid #49494B !important;
-    border-bottom: 1px solid #49494B !important;
+    border-top: 1px solid #DA0037 !important;
+    border-bottom: 1px solid #DA0037 !important;
   }
   .project-container .row .col-lg-8 {
     margin-top: 0rem;
@@ -339,8 +346,8 @@
 }
 
 .project-image-left img {
-  border-bottom: 1px solid #49494B !important;
-  border-right: 1px solid #49494B !important;
+  border-bottom: 1px solid #DA0037 !important;
+  border-right: 1px solid #DA0037 !important;
 }
 
 .project-image-right {
@@ -348,8 +355,12 @@
 }
 
 .project-image-right img {
-  border-bottom: 1px solid #49494B !important;
-  border-left: 1px solid #49494B !important;
+  border-bottom: 1px solid #DA0037 !important;
+  border-left: 1px solid #DA0037 !important;
+}
+
+.transaction-col {
+  width: 30% !important;
 }
 
 .project-bg, .project-bg-2, .project-bg-3 {
@@ -358,8 +369,8 @@
 }
 
 .project-bg-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/3.png?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/3.png?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-size: cover;
   background-position: 50% 25%;
@@ -367,24 +378,25 @@
 
 @media (min-width: 992px) {
   .project-bg-1 {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/4.png?raw=true");
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/4.png?raw=true");
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background-position: top center;
-    background-size: 96rem;
+    background-position: center center;
+    /*background-size: 96rem;*/
     background-repeat: no-repeat;
+    width: 70%;
   }
 }
 
 .project-bg-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/index-screenshot.png?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/index-screenshot.png?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/index-screenshot.png?raw=true");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/index-screenshot.png?raw=true");
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-bg-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/screenshot_1.png?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/portfolio/blob/master/styles/images/screenshot_1.png?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/screenshot_1.png?raw=true");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/screenshot_1.png?raw=true");
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -421,7 +433,7 @@
 
 .skill-card .card {
   margin: 0 5rem;
-  background-color: #212123;
+  background-color: #444444;
 }
 
 @media (min-width: 992px) {
@@ -442,7 +454,7 @@
 }
 
 .skill-card .card .card-body ul {
-  color: #7d7c84;
+  color: #EDEDED;
   font-size: 1.4rem;
   padding-left: 2.4rem;
 }
@@ -469,7 +481,7 @@
 }
 
 .lenguage-icon .fa-heart {
-  color: #DB4747;
+  color: #DA0037;
   font-size: 1.6rem;
 }
 
@@ -478,7 +490,7 @@
 }
 
 .get-started {
-  background-color: #212123;
+  background-color: #171717;
 }
 
 @media (min-width: 992px) {
@@ -495,7 +507,7 @@
     height: 94px;
     right: 33rem;
     top: 440rem;
-    background: #DB4747;
+    background: #DA0037;
     mix-blend-mode: lighten;
   }
 }
@@ -507,7 +519,7 @@
 .btn-project {
   font-size: 1.6rem;
   margin: 6rem 0 2rem 2rem;
-  background-color: #DB4747;
+  background-color: #DA0037;
   border-radius: 0rem;
 }
 
@@ -553,7 +565,11 @@
 .collab-btn {
   font-size: 1.6rem;
   margin-top: 2.5rem;
-  background-color: #DB4747;
+  background-color: #DA0037;
+}
+
+.btn:hover {
+  color: #EDEDED;
 }
 
 @media (min-width: 992px) {
@@ -599,17 +615,17 @@
 }
 
 .modal-footer a {
-  color: #DB4747;
+  color: #DA0037;
   font-size: 1.8rem;
 }
 
 .modal-footer a:hover {
-  color: #DB4747;
+  color: #DA0037;
   text-decoration: underline;
 }
 
 .modal-footer a i {
-  color: #DB4747;
+  color: #DA0037;
 }
 
 html {
@@ -617,6 +633,6 @@ html {
 }
 
 .red-color {
-  color: #DB4747;
+  color: #DA0037;
 }
 /*# sourceMappingURL=main.css.map */

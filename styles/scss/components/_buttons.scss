@@ -66,3 +66,8 @@
     background-color: $color-red;
 }
 
+.btn {
+  &:hover {
+    color: $color-primary;
+  }
+}
