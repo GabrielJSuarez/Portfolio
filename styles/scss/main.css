@@ -110,7 +110,7 @@
 .form-control:focus {
   color: #ffffff;
   border-color: #DA0037;
-  background-color: #101010;
+  background-color: #444444;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
