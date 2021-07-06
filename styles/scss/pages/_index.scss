@@ -249,6 +249,19 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.project-bg-4 {
+  @extend .project-bg;
+  background: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0) 48.44%,
+      #000000 100%
+    ),
+    url('https://github.com/GabrielJSuarez/Space-Shooter-Phaser3/blob/development/title.jpg?raw=true');
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-size: contain;
+}
+
 
 .project-tech {
   p {
