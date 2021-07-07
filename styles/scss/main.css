@@ -367,8 +367,8 @@
 }
 
 .project-bg-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("/styles/images/57665_technology_ruby_ruby_on_rails.jpg");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/styles/images/57665_technology_ruby_ruby_on_rails.jpg");
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-size: cover;
   background-position: 50% 25%;
@@ -376,8 +376,8 @@
 
 @media (min-width: 992px) {
   .project-bg-1 {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/57665_technology_ruby_ruby_on_rails.jpg?raw=true");
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("/styles/images/57665_technology_ruby_ruby_on_rails.jpg");
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/styles/images/57665_technology_ruby_ruby_on_rails.jpg");
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-position: center center;
     /*background-size: 96rem;*/
@@ -387,20 +387,20 @@
 }
 
 .project-bg-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/index-screenshot.png?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/index-screenshot.png?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("/styles/images/index-screenshot.png");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/styles/images/index-screenshot.png");
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-bg-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/screenshot_1.png?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Portfolio/blob/main/styles/images/screenshot_1.png?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("/styles/images/screenshot_1.png");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/styles/images/screenshot_1.png");
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-bg-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("https://github.com/GabrielJSuarez/Space-Shooter-Phaser3/blob/development/title.jpg?raw=true");
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("https://github.com/GabrielJSuarez/Space-Shooter-Phaser3/blob/development/title.jpg?raw=true");
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000000)), url("/styles/images/title.jpg");
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/styles/images/title.jpg");
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-size: contain;
 }
